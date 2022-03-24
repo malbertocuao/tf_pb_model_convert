@@ -4,26 +4,11 @@
 
 Convert TF2.2 saved pb model directly  to TF1.13 and TF1.15 for inferencing  
 
-将TF2.2中训练导出的模型pb文件转换为TF1中可推理的pb文件. 
 ------  
 
 There are cases that researchers develop their deep learning model under the framework of TensorFlow2.2, while the product environment is Tensorflow1.13 or Tensorflow1.15. This code helps convert your TF2.2 SavedModel(using model.save()) into TF1 FrozenGraph pb file that can be loaded under TF1.13 / TF1.15 environment for inferencing.  
 
-在企业应用中很多时候研发人员在TF2.2下训练的模型需要部署在TF1.13或TF1.15的生产环境下. 这个仓库将帮助你直接将TF2的SavedModel(用 model.save()保存)的代码转为TF1可推理的FrozenGraph的pb文件. 节约开发时间和环境差异导致的额外精力浪费. 
-
 ------  
-
-
-## How to Use (Cn)  
-
-参考博客: http://julianlu.com/blog/coding_pb_tf2_to_tf1/
-
-或  
-
-知乎文章: https://zhuanlan.zhihu.com/p/382652354
-
-------  
-
 
 ## How to Use (En)
 
